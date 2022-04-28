@@ -4,6 +4,7 @@ public class Main {
         Calculator calculator = Calculator.instance.get();
         calculator.print.accept(calculator.abs.apply(4));
         calculator.print.accept(calculator.dev.apply(4, 0));
+        calculator.print.accept(calculator.dev.apply(4, -2));
         calculator.print2.accept(calculator.pos.test(-9));
         calculator.print.accept(calculator.abs2.apply(-999784));
 
